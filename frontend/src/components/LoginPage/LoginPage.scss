@@ -1,0 +1,149 @@
+.loginPage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+
+  height: max-content;
+  width: 60%;
+  margin: auto;
+  border-radius: 15px;
+  margin-top: 2rem;
+  overflow: hidden;
+  background-color: #ffff;
+  box-shadow: 0 0 10px 2px #703efe;
+}
+.leftLoginPage {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 0.8;
+  background: #703efe;
+  align-items: center;
+  height: 80vh;
+  justify-content: center;
+  padding: 1rem;
+  h1 {
+    font-size: xx-large;
+    font-weight: 800;
+    background-color: #703efe;
+    color: #ffff;
+  }
+}
+.rightLoginPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: #ffff;
+  flex: 1;
+}
+.logoLoginPage {
+  img {
+    width: 50px;
+    height: 50px;
+    background-color: #ffff;
+  }
+}
+.titleLoginPage {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffff;
+  h1 {
+    margin-left: 5px;
+    font-size: larger;
+    font-weight: 800;
+    color: #703efe;
+    background-color: #ffff;
+  }
+  h5 {
+    font-size: medium;
+    font-weight: 600;
+    background-color: #ffff;
+  }
+}
+.formLoginPage {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffff;
+  input {
+    width: 100%;
+    padding: 0.5rem;
+    background-color: #ffff;
+    border-radius: 5px;
+    border: 1px solid #703efe;
+    color: #703efe;
+    margin-top: 10px;
+    height: 2rem;
+    outline: none;
+
+    &:focus {
+      box-shadow: 0 0 10px 2px #703efe;
+      border: none;
+    }
+  }
+
+  div {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    background: transparent;
+
+    a {
+      font-size: small;
+      color: #703efe;
+      background: transparent;
+    }
+  }
+
+  button {
+    width: 100%;
+    background-color: #703efe;
+    margin-top: 30px;
+    padding: 0.3rem;
+    border-radius: 5px;
+    color: white;
+  }
+
+  .googleBtn {
+    display: flex;
+    background-color: #f9f9f9;
+    color: rgb(28, 28, 28);
+    align-items: center;
+    justify-content: center;
+
+    svg {
+      color: #703efe;
+      margin-right: 5px;
+    }
+    p {
+      font-weight: 100;
+      font-size: small;
+    }
+
+    &:hover {
+      box-shadow: 0 0 10px 2px #703efe;
+    }
+  }
+}
+.registerBtn {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffff;
+  bottom: 10px;
+  p {
+    font-size: x-small;
+    font-weight: 200;
+    background-color: #ffff;
+  }
+
+  a {
+    color: #703efe;
+    font-size: x-small;
+    margin-left: 2px;
+    font-weight: 500;
+  }
+}
